@@ -1,0 +1,18 @@
+
+/* 
+Cor de links não visitados:  */
+a:link {
+    color: #b9c941
+}
+/* Cor de link visitados */
+a:visited {
+    color:rgb(99, 45, 150)
+}
+/* Hover, passar o mause sobre o link e o link mudar de cor */
+a:hover {
+    color: rgb(244, 172, 85);
+}
+/* quando clicado */
+a:active {
+    color: rgb(234, 49, 49);
+}
