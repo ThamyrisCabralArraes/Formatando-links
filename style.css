@@ -1,4 +1,7 @@
-
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
 /* 
 Cor de links não visitados:  */
 a:link {
@@ -8,7 +11,7 @@ a:link {
 a:visited {
     color:rgb(99, 45, 150)
 }
-/* Hover, passar o mause sobre o link e o link mudar de cor */
+/* Hover, passar o mouse sobre o link e o link mudar de cor */
 a:hover {
     color: rgb(244, 172, 85);
 }
@@ -16,3 +19,6 @@ a:hover {
 a:active {
     color: rgb(234, 49, 49);
 }
+/* pode colocar:
+a:link, a:visited {} e formatar os dois ao mesmo tempo
+ */
